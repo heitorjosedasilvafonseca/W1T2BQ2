@@ -21,7 +21,7 @@ namespace W1T2BQ2
             try
             {
                 cmd.Connection = Conexao.Connection;
-                cmd.CommandText = @"insert into funccionario
+                cmd.CommandText = @"insert into funcionario
                                     (nome, sexo, dataNasc, carteira, fixo, celular, email, endereco, bairro, cidade, uf)
                                     values
                                     (@nome, @sexo, @dataNasc, @carteira, @fixo, @celular, @email, @endereco, @bairro, @cidade, @uf)";
