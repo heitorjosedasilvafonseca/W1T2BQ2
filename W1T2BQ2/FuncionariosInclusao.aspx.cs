@@ -31,6 +31,7 @@ namespace W1T2BQ2
                 cmd.Parameters.AddWithValue("dataNasc", txtDataNasc.Text);
                 cmd.Parameters.AddWithValue("fixo", txtCelular.Text);
                 cmd.Parameters.AddWithValue("celular", txtCelular.Text);
+                cmd.Parameters.AddWithValue("carteira", txtCarteira.Text);
                 cmd.Parameters.AddWithValue("email", txtEmail.Text);
                 cmd.Parameters.AddWithValue("endereco", txtEndereco.Text);
                 cmd.Parameters.AddWithValue("bairro", txtBairro.Text);
